@@ -1,0 +1,21 @@
+First Create a folder in local system named as 'simpleGitHubTest'
+Enter inside your project directory with your fav code editor (I used VS code)
+Now go to this www.github.com --> login to your github account --> 
+Create a new repository of your project.
+-> Click on New button on top left of window.
+-> Enter the name of the project repo and leave other option as default.
+-> Create the project repo
+	--> Open cmd prompt in your project directory.
+		--> echo "# simpleGitHubTest" >> README.md
+		--> git init ====> Initialise the git in local project directory
+		--> git add README.md ===> make the README.md file tractable.
+		--> create a new file named as 'abc.txt'
+		--> do the `git status` and observe the changes
+		--> now do `git add .` ===> make the all the untracted file to tracked one.
+		--> git status ===> Observe the changes
+		--> git commit -m "first commit" ===> Add a commit with the message 'first commit'
+		--> git branch ===> Give all the branch in the local system.
+		--> git branch -M main ==> Git remain the my branch to main branch
+		--> git remote add origin https://github.com/webobite/simpleGitHubTest.git ===> Add remote link to github
+		--> git push -u origin main ===> Push your code on the github remote server.
+		
